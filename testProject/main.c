@@ -10,6 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    int num;
+    printf("Type a number:\n");
+    scanf("%d", &num);
+    printf("The number is: %d\n", num);
     return 0;
 }
