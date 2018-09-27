@@ -15,5 +15,6 @@ int main(int argc, const char * argv[]) {
     printf("Type a number:\n");
     scanf("%d", &num);
     printf("The number is: %d\n", num);
+    printf("Commit this");
     return 0;
 }
